@@ -1,0 +1,33 @@
+body {
+    background: #000;
+    margin: 18px;
+}
+
+.lg-react-element {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    filter: opacity(.9);
+    transform: scale(1.01);
+}
+
+.header {
+    text-align: center;
+    
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
